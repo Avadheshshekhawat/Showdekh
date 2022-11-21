@@ -1,0 +1,1160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* Home Page Start */
+
+
+/* Navebar Start */
+
+.navbar {
+    background-color: #198754;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .menulnk {
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.navbar .menulnk:hover {
+    /* border-bottom: 1px solid #ffc107; */
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 5px;
+}
+
+.header_btn {
+    margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.profile-btn{
+    margin-right: 60px;
+}
+
+.dropdown-menu a {
+    color: #000;
+}
+
+/* Navebar End */
+
+
+
+/* Mobile screen importent nav bottom bar start */
+/* .bottom-nav-bar {
+    position: absolute;
+    z-index: 9999;
+    position: fixed;
+}
+
+.anchor-bottom-bar {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.anchor-bottom-bar:hover {
+    color: black;
+}
+
+.bottom-nav-bar-L {
+    background-color: white;
+    border-right: 1px solid black;
+}
+
+.bottom-nav-bar-M {
+    background-color: white;
+    border-right: 1px solid black;
+}
+
+.bottom-nav-bar-R {
+    background-color: white;
+} */
+
+/* Mobile screen importent nav bottom bar end */
+
+
+
+
+/* Slider Start */
+.bg_slider {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background-color: #e9e9e9;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 55vh;
+    min-height: 55vh;
+}
+
+.carousel-caption {
+    bottom: 0px;
+    z-index: 2;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* .litng {
+    color: #ebd90b;
+}
+
+.tl1 {
+    color: lightgray;
+}
+
+.tl2 {
+    color: #7DF9FF;
+}
+
+.tlsl {
+    font-size: 70px;
+    font-family: sans-serif;
+} */
+
+
+
+/* slider image responsive */
+.w-100 {
+    height: 55vh;
+}
+
+
+
+/* === Responsive css === */
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+    }
+} */
+
+/* @media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+} */
+
+/* Slider End */
+
+
+
+
+/* Now showing section start */
+
+
+/* background start */
+.book-movie-show-bg {
+    background-size: cover;
+    background-color: #e9e9e9;
+    /* background-blend-mode: darken; */
+    padding-bottom: 50px;
+}
+
+/* background end */
+
+
+.booking-section-heading h3 {
+    padding-top: 10px;
+    color: #000;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+
+
+/* movie card start */
+.movie-shows-bg {
+    background-color: transparent;
+}
+
+
+.movie-card {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.movie-card-img {
+    border-radius: 25px 25px 0 0;
+    height: 300px;
+}
+
+.movie-card-title {
+    font-weight: bold;
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 1px;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+}
+
+.movie-card-title p {
+    position: relative;
+    top: 8px;
+}
+
+.movie-card-book-button {
+    background-color: #ffc107;
+    transition: 0.5s;
+    margin-top: 0;
+}
+
+.movie-card-book-button p {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s;
+}
+
+.movie-card-book-button a {
+    text-decoration: none;
+}
+
+.movie-card-book-button:hover {
+    border-radius: 0 0 25px 25px;
+    background-color: #198754;
+    transition: 0.5s;
+}
+
+.movie-card-book-button:hover a p {
+    color: white;
+    transition: 0.5s;
+}
+
+.watch-trailer-btn,
+.book-now-btn {
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.watch-trailer-btn:hover,
+.book-now-btn:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+/* Movie card end */
+
+
+/* Now showing section end */
+
+
+
+
+/* upcoming movies section Start */
+
+.upcmbg {
+    background-color: #2b3149;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.upcmbg h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+/* trailer modal box start */
+.trailer-box {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.trailer-modal-bg {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* trailer modal box end */
+
+
+/* Upcoming movies section End */
+
+
+
+
+
+
+
+/* Contact Us Section Start */
+/* Background */
+.contus {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* contact Us Title */
+#contact h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Left Section Start */
+.left {
+    /* background-color: green; */
+    padding: 10px;
+}
+
+.left h3 {
+    font-weight: bold;
+    color: white;
+}
+
+
+.left p {
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.left p a {
+    text-decoration: none;
+    color: white;
+}
+
+.phone-icn,
+.mail-icn,
+.lctn-icn {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.phone-icn:hover,
+.mail-icn:hover,
+.lctn-icn:hover {
+    border: 2px solid #ebd90b;
+    color: #ebd90b;
+}
+
+/* Left Section End */
+
+/* Right Section Start */
+.right {
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+    /* background-color: gray; */
+}
+
+/* Contact Us Section End */
+
+
+
+
+
+/* About Us section start */
+.about-us {
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #e3e3e3;
+}
+
+.about-us-content {
+    padding: 10px 40px 40px 40px;
+}
+
+.about-us-content h5 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about-us-content p {
+    font-weight: bold;
+}
+
+.tkt-img {
+    border-radius: 15px;
+    height: 120px;
+    margin-top: 0;
+    box-shadow: 3px 3px 15px 4px black;
+}
+
+/* About us section end */
+
+/* Home Page End */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================== */
+/* ========================================== */
+/* Upcoming Movie details page start */
+
+.banner-img-bg{
+    text-align: center;
+    /* background-color: #000; */
+    padding-top: 1%;
+}
+.trailer-btn{
+    margin-top: 10px;
+}
+.banner-img{
+    height: 60vh;
+    width: 100%;
+    min-height: 40vh;
+    border-radius: 25px;
+}
+.movie-details{
+    padding: 10px 50px 10px 50px;
+}
+/* Upcoming movie details page end */
+/* ========================================== */
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* Sign Up Page Start */
+
+
+.sign-up-page-bg {
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 100vh;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -9;
+}
+
+
+
+.sign-up-form-div,
+.sign-in-form-div {
+    background-color: #561b8d;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.sign-in-form-div {
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.form-hdg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+    margin-bottom: 18px;
+}
+
+.sign-up-btn,
+.sign-in-btn {
+    background-color: brown;
+    color: white;
+    margin-bottom: 10px;
+    transition: 0.8s;
+    font-weight: bold;
+}
+
+.sign-up-btn:hover,
+.sign-in-btn:hover {
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    transition: 0.8s;
+}
+
+.sign-in-page-open-btn,
+.sign-up-page-open-btn {
+    color: white;
+    font-size: 16px;
+    transition: 0.8s;
+}
+
+.sign-in-page-open-btn:hover,
+.sign-up-page-open-btn:hover {
+    color: #ebd90b;
+    transition: 0.8s;
+}
+
+.logo{
+    text-decoration: none;
+    color: #fff;
+}
+.logo:hover{
+    color: #fff;
+}
+/* Sign Up page End */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* Movie thumbnail page start */
+
+
+
+/* Background image and overlay content start */
+.bg-img {
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+    width: 1350px;
+    /* width: fit-content; */
+}
+
+.overlay-bg-img {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 80vh;
+    width: 100%;
+}
+
+.content-bg-div {
+    height: 62vh;
+    margin-top: 12vh;
+}
+
+.content-bg-div-left {
+    height: 62vh;
+}
+
+.content-bg-div-left-L {
+    height: 62vh;
+}
+
+.card-img {
+    height: 60vh;
+    margin-top: 1vh;
+    border-radius: 15px;
+}
+
+.content-bg-div-left-R {
+    height: 62vh;
+    color: white;
+}
+
+.content-bg-div-left-R h2 {
+    margin-top: 2vh;
+}
+
+.content-bg-div-right {
+    height: 62vh;
+}
+
+/* Background image and overlay content end */
+
+
+
+/* Date option start */
+.date-option {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    background-color: transparent;
+}
+
+/* Date option end */
+
+/* date button start */
+.date-btn {
+    font-size: 12px;
+}
+
+/* date button end */
+
+
+
+/* Trailer button start */
+.trailer-btn-bg {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* Trailer button end */
+
+
+
+/* available option start */
+.availabal-option {
+    padding-top: 3px;
+    height: auto;
+    background-color: transparent;
+}
+
+.dot-avlb {
+    font-size: 10px;
+    color: #4abd5d;
+}
+
+.dot-fast-filling {
+    font-size: 10px;
+    color: #ff6600;
+}
+
+.available-option-content p {
+    color: black;
+    font-size: 12px;
+    margin-top: 14px;
+    background-color: transparent;
+}
+
+/* available option end */
+
+
+
+/* movie theaters list start */
+.theaters-list-bg {
+    background-color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+.show-timing {
+    height: 5vh;
+    background-color: white;
+    border: 0.5px solid lightgray;
+    border-radius: 12px;
+    height: auto;
+}
+
+.theater-name {
+    background-color: transparent;
+    height: auto;
+    border-right: 1px solid lightgray;
+}
+
+.theater-name p {
+    margin-top: 15px;
+}
+
+
+.theater-timing {
+    background-color: transparent;
+    height: auto;
+    border-left: 1px solid lightgray;
+}
+
+.theater-timing-btn {
+    border: 1px solid gray;
+    color: #4abd5d;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.theater-timing-btn:hover {
+    color: #4abd5d;
+}
+
+/* movie theaters list end */
+
+
+
+
+/* modal box content start */
+
+
+/* Carnival available seats start */
+
+
+/* time buttons start */
+.time-btns-row {
+    margin-top: -15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5fa;
+}
+
+/* time buttons end */
+
+
+
+/* Theater seats start */
+.row-title {
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+.row-title p {
+    margin-left: 100px;
+}
+
+.theater-row {
+    display: flex;
+}
+
+.row-A {
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3px;
+    font-size: 16px;
+    color: gray;
+    margin-left: 100px;
+}
+
+.seat {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    margin: 3px;
+    border: 1px solid #4abd5d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.seat:hover {
+    background-color: #4abd5d;
+    color: white;
+}
+
+.selected-seat {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    margin: 3px;
+    border: 1px solid #4abd5d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #4abd5d;
+    color: white;
+}
+
+.sold {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    margin: 3px;
+    border: 1px solid #4abd5d;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    background-color: gray;
+    color: lightgray;
+}
+
+#seat1 {
+    margin-left: 50px;
+}
+
+#seat-gap {
+    margin-left: 35px;
+}
+
+/* Theater seats end */
+
+
+
+/* Theater screen start */
+.theater-screen {
+    height: 150px;
+    width: 300px;
+    clip-path: polygon(19% 40%, 80% 40%, 100% 50%, 0 50%);
+    margin-left: 450px;
+    background-color: #4abd5d;
+}
+
+.theater-screen-cont {
+    width: 500px;
+    margin-left: 515px;
+    margin-top: -70px;
+}
+
+.theater-screen-cont p {
+    font-weight: bold;
+}
+
+/* Theater screen end */
+
+
+
+
+/* Carnival available seats end */
+
+
+
+/* modal box content end */
+
+
+
+
+/* Movie thumbnail page end */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+
+
+
+
+
+
+
+/* ========================================== */
+/* ========================================== */
+    /* Profile page start */
+   
+    .profile-card{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 18px;
+        box-shadow: 5px 5px 8px 5px gray;
+    }
+    .profile-pic-bg{
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #5a62b3;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+        padding: 10px 0px 10px 0px;
+    }
+    .profile-pic-div{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        margin-top:20px;
+        position: relative;
+        z-index: 1;
+        background-color: #e3e3e3;
+        /* box-shadow: 3px 3px 5px 3px gray; */
+    }
+    .update-profile-pic-btn-bg{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        position: relative;
+        top: -40px;
+        left: 40px;
+    }
+    
+    .profile-pic{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .usrd{
+        background-color: #e3e3e3;
+        color: #000;
+        padding: 10px 0 10px 10px;
+        padding-top: 40px;
+        /* border-bottom: 1px solid #fff; */
+    }
+    .profile_userid{
+        font-size: 25px;
+    }
+    .name{
+        background-color: #e3e3e3;
+        color: #000;
+        padding: 10px 0px 10px 10px;
+        justify-content: center;
+        /* border-bottom: 1px solid #fff; */
+    }
+    
+    .update_profile_field{
+        background-color: #e3e3e3;
+        color: #000;
+        padding: 10px 20px 10px 20px;
+        border-bottom: 1px solid #fff;
+    }
+    .upload-dp-div{
+        background-color: #e3e3e3;
+        padding: 10px 0 10px 20px;
+        border-bottom: 1px solid #fff;
+    }
+    .eml{
+        background-color: #e3e3e3;
+        color: #000;
+        padding: 10px 0 10px 10px;
+        /* border-bottom: 1px solid #fff; */
+    }
+    .gen{
+        background-color: #e3e3e3;
+        color: #000;
+        padding: 10px 0 10px 10px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+
+    .update_prifile_img_icon{
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: transparent;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .update_prifile_img_icon:hover{
+        color: #198754;
+    }
+    .update_prifile_icon{
+        text-decoration: none;
+        color: #000;
+        background-color: transparent;
+        border: transparent;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .update_prifile_icon:hover{
+        color: #198754;
+    }
+    .name_update_icon{
+        /* position: relative;
+        float: right;
+        right: 10px; */
+        color: #000;
+        margin-top: -22px;
+        border: transparent;
+    }
+    .gender_update_icon{
+        /* position: relative;
+        float: right;
+        right: 10px; */
+        color: #000;
+        border: transparent;
+    }
+    .update_name_input{
+        padding: 5px 15px 5px 15px;
+        border: 1px solid #198754;
+        border-radius: 18px;
+    }
+    input[type=text]:focus{
+        outline: 1px solid #198754; 
+        /* border: transparent;   */
+        }
+   
+
+    /* Profile page end */
+/* ========================================== */
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+/* ========================================== */
+/* ========================================== */
+/* Footer Start */
+
+.footer-bg {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-logo {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.footer-nav {
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+.footer-copy-right {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.nvlnk{
+    color: white;
+}
+.nvlnk:hover{
+    color: #ffc107;
+}
+.nav_copyright_section_website_name:hover{
+    color: #ffc107;
+}
+
+
+
+
+
+
+/* .footer-bg {
+    bottom: 0;
+}
+
+.nvlnk {
+    color: #000;
+}
+
+.nvlnk:hover {
+    color: #000;
+} */
+
+/* Footer End */
+/* ========================================== */
+/* ========================================== */
